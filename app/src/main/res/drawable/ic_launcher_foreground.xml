@@ -1,0 +1,68 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Paper airplane body with shadow and gradient (Telegram motif) -->
+    <path
+        android:pathData="M28,52 L78,32 L66,74 L52,62 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="32"
+                android:endX="78"
+                android:endY="74"
+                android:type="linear">
+                <item android:color="#FFFFFF" android:offset="0.0" />
+                <item android:color="#E1F5FE" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Fold shading of paper airplane -->
+    <path
+        android:pathData="M78,32 L52,62 L50,71 L45,64 Z"
+        android:fillColor="#B3E5FC" />
+
+    <!-- Center crease highlight -->
+    <path
+        android:pathData="M52,62 L78,32 L40,54 Z"
+        android:fillColor="#E1F5FE" />
+
+    <!-- AI Sparkle / Magic Star at the nose of the plane -->
+    <!-- Center star 4-point -->
+    <path
+        android:pathData="M78,28 Q80,24 84,24 Q80,24 78,20 Q76,24 72,24 Q76,24 78,28 Z"
+        android:fillColor="#FFD54F" />
+
+    <!-- Secondary small sparkle -->
+    <path
+        android:pathData="M83,38 Q84,36 86,36 Q84,36 83,34 Q82,36 80,36 Q82,36 83,38 Z"
+        android:fillColor="#4DD0E1" />
+
+    <!-- Third small sparkle -->
+    <path
+        android:pathData="M34,40 Q35,39 37,39 Q35,39 34,37 Q33,39 31,39 Q33,39 34,40 Z"
+        android:fillColor="#81D4FA" />
+
+    <!-- Dynamic AI wave / paint stroke below airplane -->
+    <path
+        android:pathData="M32,73 C42,80 62,81 76,71"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="32"
+                android:startY="73"
+                android:endX="76"
+                android:endY="71"
+                android:type="linear">
+                <item android:color="#00E5FF" android:offset="0.0" />
+                <item android:color="#FF4081" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
+

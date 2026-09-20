@@ -1,0 +1,7 @@
+{
+  "name": "Invoke AI",
+  "description": "Telegram-style AI chat bot that generates images directly in conversations from text prompts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
